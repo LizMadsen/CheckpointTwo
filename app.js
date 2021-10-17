@@ -1,5 +1,5 @@
 let spawnCollected = 0
-let winCondition = 12000000
+let winCondition = 120
 
 function mine() {
     let core1CB = clickUpgrades.core1.quantity * clickUpgrades.core1.clickBonus

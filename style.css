@@ -48,4 +48,5 @@ main {
     width: auto;
     display: flex;
     flex-direction: column;
+    animation:ease-in 5s;
 }
