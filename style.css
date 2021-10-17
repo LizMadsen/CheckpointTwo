@@ -1,0 +1,51 @@
+.clicky-text {
+    font-family:'Franklin Gothic Medium', sans-serif;
+    color: #b0b8a8
+}
+
+body {
+    background-image: url("https://64.media.tumblr.com/b6f9a142675f73501963f13c165c89d5/9c436c33820a6bc8-2e/s2048x3072/335e6a26f2ecc2f625c88ba514d87d81a7487a16.jpg");
+    min-height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    position: relative;
+    flex-grow: 1;
+}
+
+.content-spill-up {
+    transform: translateY(-15em);
+}
+
+.counterCard {
+    background-color: #27372f;
+    color: #f0f8e7;
+    height:auto;
+    opacity: .8;
+}
+
+.tally {
+    font-size: 24px;
+}
+
+.upgradeButtons {
+    background-color: #27372f;
+    color: #f0f8e7;
+    height: 75px;
+    width: 275px;
+}
+
+.LSIcon {
+    height: 60px;
+}
+
+.WorldEndImg {
+    min-height: auto;
+    min-width: 100vw;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
